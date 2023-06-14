@@ -1,0 +1,42 @@
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+    grid-gap: 20px;
+}
+
+@media (min-width: 1200px){
+    .cardContainer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+.card{
+    border: 2px solid red;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.imageContainer{
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    height: auto;
+    width: 10em;
+}
