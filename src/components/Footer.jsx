@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        This webpage was developer by <a href="#">Moonlight</a>
+        This webpage was developed by <a href="#">Moonlight</a>
       </p>
       <p>
         Social webs of Ikari: 

@@ -1,0 +1,14 @@
+[
+    {
+        "img": "/instagram-icon.png",
+        "name": "Instagram"
+    },
+    {
+        "img": "/tik-tok-icon.png",
+        "name": "Tik Tok"
+    },
+    {
+        "img": "/twitter-icon.png",
+        "name": "Twitter"
+    }
+]

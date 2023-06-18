@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
     grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 1200px){
@@ -11,9 +13,16 @@
     }
 }
 
+@media (max-width: 670px){
+    .cardContainer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 .card{
-    border: 2px solid red;
     height: 25em;
+    max-width: 20em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,4 +48,5 @@
 .image{
     height: auto;
     width: 10em;
+    border-radius: 15px;
 }
