@@ -8,7 +8,7 @@ function Header() {
                 <img src="/logo-black.png" alt="Ikari Collection" className={styles.logoImage} />
             </div>
             <div className={styles.title}>
-                <h2>Aishiteru Shop</h2>
+                <h2>Ikari Painting</h2>
             </div>
         </section>
         <nav>

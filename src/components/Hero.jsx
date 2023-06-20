@@ -8,7 +8,7 @@ function Hero() {
       <CarouselImg />
       <section className={styles.presentationContainer}>
         <h2 className={styles.title}>
-          Aishiteru Shop
+          Ikari Painting
         </h2>
         <p className={styles.text}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque sit suscipit corrupti ipsa ipsam id mollitia recusandae nemo. Quam ab tempore sint officiis expedita tempora quod dicta vitae itaque. Recusandae.
